@@ -50,7 +50,12 @@ var employees = [
     3. Return the updated employee array.
 */
 
-//Code Here
+function employeeUpdater () {
+  let updatedEmployees = employees
+  .filter(x => x["firstName"] !== "Theo")
+  
+  return updatedEmployees;
+}
 
 
 
